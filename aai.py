@@ -60,7 +60,6 @@ if __name__ == '__main__':
         if os.path.isdir(target):
             tr_folder(target, language, key)
         else:
-            
             tr_file(target, language, key)
     except Exception as error:
         print('Usage: aai <audio_file or path to folder> <language> <api key>\n\nGet api key at https://www.assemblyai.com/\n\nExample: aai d:/downloads/test ru xxxxxxx')
